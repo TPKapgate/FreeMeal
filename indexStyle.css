@@ -1,0 +1,13 @@
+.temp_p{
+    background-color: blueviolet;
+}
+.temp_btn{
+    background-color: brown;
+}
+
+#SearchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust as needed */
+  }
