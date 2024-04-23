@@ -44,7 +44,7 @@ function searchHelper(val)
     temp_P.classList.add('temp_p');
     addFav.classList.add('temp_btn');
     temp_P.addEventListener('click',function() {
-        document.location.href = "./mainMeal/mainMeal.html";
+        document.location.href = "./mainMeal.html";
         console.log(val["idMeal"]);
         selectedID = val["idMeal"];
         localStorage.setItem('selectedID',selectedID);
@@ -75,7 +75,7 @@ function appendFav(id, mealName) {
 
 // Adding Event listner on click of Favourite Button    
 favBtn.addEventListener('click',function() {
-    document.location.href = "./favMeal/favMeal.html";
+    document.location.href = "./favMeal.html";
 });
 
 
